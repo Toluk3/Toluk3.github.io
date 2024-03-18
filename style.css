@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #02181f;
     color: white;
     padding: 10px 20px;
 }
@@ -16,7 +16,7 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: rgb(2, 164, 176);
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
