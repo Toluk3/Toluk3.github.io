@@ -36,3 +36,15 @@ a.button {
 a.button:hover {
     background-color: #0056b3;
 }
+
+section {
+    overflow: hidden;
+
+}
+
+img {
+    float: left; /* Alinea la imagen a la izquierda */
+    width: 25%; /* La imagen ocupa el 25% del ancho del contenedor */
+    margin-right: 20px; /* Añade espacio a la derecha de la imagen */
+    height: auto; /* Asegura que la imagen se ajuste al contenedor sin perder sus proporciones */
+}
