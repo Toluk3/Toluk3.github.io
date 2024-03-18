@@ -16,12 +16,36 @@ main {
 }
 
 section {
-    background-color: rgb(2, 164, 176);
+    background-color: rgba(2, 164, 176, 0.8); /* Fondo ligeramente transparente */
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1), 
+                0 0 25px rgba(255, 223, 0, 0.8); /* Sombra amarilla externa más intensa */
 }
+
+section p {
+    font-weight: bold; /* Hace el texto más grueso */
+    color: #ffffff; /* Un color más claro para mayor contraste, por ejemplo, blanco */
+    font-size: 18px; /* Tamaño de fuente más grande para hacerlo más llamativo */
+}
+
+ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0;
+    
+}
+
+ul li {
+    background-color: #6f418dd6; /* Color de fondo para los ítems de la lista */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 5px; /* Espaciado entre ítems */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+}
+
+
 
 a.button {
     display: inline-block;
@@ -43,8 +67,25 @@ section {
 }
 
 img {
-    float: left; /* Alinea la imagen a la izquierda */
-    width: 25%; /* La imagen ocupa el 25% del ancho del contenedor */
-    margin-right: 20px; /* Añade espacio a la derecha de la imagen */
+    
+    float: center; /* Alinea la imagen a la izquierda */
+    width: 90%; /* La imagen ocupa el 25% del ancho del contenedor */
     height: auto; /* Asegura que la imagen se ajuste al contenedor sin perder sus proporciones */
+    
+}
+
+.contenedor {
+    display: flex; /* Establece un layout flexible */
+}
+
+.lado-izquierdo {
+    width: 40%; /* Ocupa el 25% del ancho del contenedor */
+     /* Color de fondo para visualización */
+    overflow: hidden; /* Asegura que el contenido no se escape */
+}
+
+.lado-derecho {
+    width: 60%; /* Ocupa el 75% del ancho del contenedor */
+     /* Color de fondo para visualización */
+    overflow: hidden; /* Asegura que el contenido no se escape */
 }
